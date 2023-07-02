@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.page-header {
+  background-color: #fe2142;
+}
+
+.page-header .page-nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.page-header .page-logo {
+  background-image: url("logo.d4f8fe33.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8rem;
+  height: 3rem;
+}
+
+.page-header .page-menu {
+  justify-content: center;
+  display: flex;
+}
+
+.page-header .page-menu li {
+  transition: all .5s;
+}
+
+.page-header .page-menu li:hover {
+  text-shadow: .0625rem .0625rem .0625rem #fff;
+}
+
+.page-header .page-menu a {
+  padding-block: .7rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: .5rem;
+  font-size: .8rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+.page-header .page-menu a:last-child {
+  padding-right: none;
+}
+
+.page-header .main-header {
+  text-align: center;
+  background-image: url("header-img.a79f3619.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  max-width: 71rem;
+  height: 36rem;
+}
+
+.page-header .main-header h1 {
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 7rem;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.page-header .main-header .page-header-text {
+  color: #fff;
+  padding: 3rem 12rem;
+  font-size: .8rem;
+}
+
+.page-header .main-header .page-header-btn {
+  text-transform: uppercase;
+  color: #fe2142;
+  background-color: #fff;
+  border-radius: 5%;
+  padding: .8rem 1.6rem;
+  font-size: .8rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.page-header .main-header .page-header-btn:hover {
+  font-size: 1rem;
+}
+
+.main-articles {
+  background-color: #f6f6f6;
+}
+
+.main-articles .container {
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+}
+
+.main-articles .main-articles-article {
+  padding-block: 3rem;
+}
+
+.main-articles .main-articles-article .main-article-header {
+  color: #fe2142;
+  padding-bottom: 1.5rem;
+}
+
+.main-articles .main-articles-article .main-article-text {
+  text-align: justify;
+  color: #777;
+  padding-bottom: 1.5rem;
+}
+
+.main-articles .main-articles-article .main-article-btn {
+  text-transform: uppercase;
+  color: #fff;
+  padding: .8rem 1.6rem;
+  background-color: #fe2142;
+  border-radius: 5%;
+  padding-block: .5rem;
+  font-size: .6rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: Caesar Dressing, cursive;
+}
+
+.container {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: .625rem;
+}
+
+/*# sourceMappingURL=index.574c7455.css.map */

@@ -1,0 +1,24 @@
+.main-articles{
+    background-color: $colorBackgroundLight;
+    .container{
+        @include grid(3);
+    }
+    .main-articles-article{
+        padding-block: 3rem;
+        .main-article-header{
+            color: $colorBackground;
+            padding-bottom: 1.5rem;
+        }
+        .main-article-text{
+            text-align: justify;
+            color: $colorText;
+            padding-bottom: 1.5rem;
+        }
+        .main-article-btn{
+            font-size: 0.6rem;
+            @include btn($colorBackground, $colorLight);
+            padding-block: 0.5rem;
+
+        }
+    }
+}

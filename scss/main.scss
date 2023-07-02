@@ -1,0 +1,21 @@
+@import 'reset';
+@import 'variables';
+@import 'mixin';
+@import 'main-hero';
+@import 'main-articles';
+
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+h1,h2,h3{
+    font-family: 'Caesar Dressing', cursive;
+}
+.container{
+    max-width: 60rem;
+    margin-inline: auto;
+    padding-inline: 0.625rem;
+}
