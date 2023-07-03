@@ -1,0 +1,20 @@
+.main-info{
+    background-color: $colorBackground;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block: 5rem;
+        color: $colorLight;
+        .main-info-text, .main-info-header{
+            flex: 1;
+        }
+        .main-info-header{
+            font-size: 2rem;
+            padding-left: 1.5rem;
+        }
+        p:last-child{
+            padding-top: 1rem;
+        }
+    }
+}

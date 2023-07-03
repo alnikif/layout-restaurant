@@ -1,0 +1,30 @@
+.main-gallery{
+    .container{
+        @include grid(4);
+        padding-block: 3.5rem;
+    }
+    .main-gallery-food{
+        height: 8rem;
+        width: 8rem;
+        border-radius: 50%;
+    }
+    .main-gallery-block{
+        @include flex;
+        @for $i from 1 through 4{
+            .food-#{$i}{
+                background-image: url('/images/food-#{$i}.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .main-gallery-text{
+            text-align: center;
+            color: $colorText;
+        }
+        .main-gallery-btn{
+            @include btn($colorBackground, $colorLight);
+            font-size: 0.6rem;
+            padding-block: 0.5rem;
+        }
+    }
+}

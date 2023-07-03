@@ -4,7 +4,7 @@
         @include grid(3);
     }
     .main-articles-article{
-        padding-block: 3rem;
+        padding-block: 5.5rem;
         .main-article-header{
             color: $colorBackground;
             padding-bottom: 1.5rem;
@@ -18,7 +18,6 @@
             font-size: 0.6rem;
             @include btn($colorBackground, $colorLight);
             padding-block: 0.5rem;
-
         }
     }
 }
